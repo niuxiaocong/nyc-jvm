@@ -1,23 +1,50 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="ItZLIVE4KQE_05swSXDu">
     <mxGraphModel dx="1221" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RciLKYpma6MFcGxWq5qy-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="RciLKYpma6MFcGxWq5qy-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="80" y="110" width="360" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="RciLKYpma6MFcGxWq5qy-2" value="接口定义JDBC规范" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RciLKYpma6MFcGxWq5qy-2" value="接口定义JDBC规范" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RciLKYpma6MFcGxWq5qy-3" value="Oracle实现这套JDBC规范" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RciLKYpma6MFcGxWq5qy-3" value="Oracle实现这套JDBC规范" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RciLKYpma6MFcGxWq5qy-4" value="MySQL实现这套JDBC规范" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RciLKYpma6MFcGxWq5qy-4" value="MySQL实现这套JDBC规范" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RciLKYpma6MFcGxWq5qy-5" value="META-INF/service 下创建接口名的文件，然后在文件中是接口的具体实现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RciLKYpma6MFcGxWq5qy-5" value="META-INF/service 下创建接口名的文件，然后在文件中是接口的具体实现" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="200" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H1K6xznQI5sIsPYjdrNv-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="560" width="360" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="H1K6xznQI5sIsPYjdrNv-2" value="SpringBoot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H1K6xznQI5sIsPYjdrNv-3" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H1K6xznQI5sIsPYjdrNv-4" value="MyBatis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H1K6xznQI5sIsPYjdrNv-5" value="META-INF/spring-factories" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="650" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H1K6xznQI5sIsPYjdrNv-6" value="其它" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H1K6xznQI5sIsPYjdrNv-7" value="RedisConfiguration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H1K6xznQI5sIsPYjdrNv-8" value="MyBatisConfiguration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H1K6xznQI5sIsPYjdrNv-9" value="xxxConfiguration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="730" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
