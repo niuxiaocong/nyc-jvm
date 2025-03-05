@@ -5,31 +5,43 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qJ1bP34VLIcEOfEzLXQR-1" value="资源拥有者&lt;br&gt;（用户）" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="100" height="480" as="geometry" />
+          <mxGeometry x="40" y="40" width="100" height="720" as="geometry" />
         </mxCell>
         <mxCell id="qJ1bP34VLIcEOfEzLXQR-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="qJ1bP34VLIcEOfEzLXQR-1">
-          <mxGeometry x="45" y="70" width="10" height="370" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="620" as="geometry" />
         </mxCell>
         <mxCell id="qJ1bP34VLIcEOfEzLXQR-2" value="三方软件前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="200" y="40" width="100" height="480" as="geometry" />
+          <mxGeometry x="200" y="40" width="100" height="720" as="geometry" />
         </mxCell>
         <mxCell id="qJ1bP34VLIcEOfEzLXQR-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="qJ1bP34VLIcEOfEzLXQR-2">
           <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="qJ1bP34VLIcEOfEzLXQR-31" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="qJ1bP34VLIcEOfEzLXQR-2">
+          <mxGeometry x="45" y="642" width="10" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="qJ1bP34VLIcEOfEzLXQR-3" value="三方软件后端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="363.5" y="40" width="100" height="480" as="geometry" />
+          <mxGeometry x="363.5" y="40" width="100" height="720" as="geometry" />
         </mxCell>
         <mxCell id="qJ1bP34VLIcEOfEzLXQR-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="qJ1bP34VLIcEOfEzLXQR-3">
           <mxGeometry x="45.5" y="148" width="10" height="92" as="geometry" />
         </mxCell>
+        <mxCell id="qJ1bP34VLIcEOfEzLXQR-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="qJ1bP34VLIcEOfEzLXQR-3">
+          <mxGeometry x="45.5" y="400" width="10" height="250" as="geometry" />
+        </mxCell>
         <mxCell id="qJ1bP34VLIcEOfEzLXQR-4" value="授权服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="520" y="40" width="100" height="480" as="geometry" />
+          <mxGeometry x="520" y="40" width="100" height="720" as="geometry" />
         </mxCell>
         <mxCell id="qJ1bP34VLIcEOfEzLXQR-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="qJ1bP34VLIcEOfEzLXQR-4">
           <mxGeometry x="45" y="260" width="10" height="92" as="geometry" />
         </mxCell>
+        <mxCell id="qJ1bP34VLIcEOfEzLXQR-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="qJ1bP34VLIcEOfEzLXQR-4">
+          <mxGeometry x="45" y="430" width="10" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="qJ1bP34VLIcEOfEzLXQR-5" value="受保护的资源" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="690" y="40" width="100" height="480" as="geometry" />
+          <mxGeometry x="690" y="40" width="100" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ1bP34VLIcEOfEzLXQR-26" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="qJ1bP34VLIcEOfEzLXQR-5">
+          <mxGeometry x="45" y="539" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="qJ1bP34VLIcEOfEzLXQR-8" value="1、访问第三方软件" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="qJ1bP34VLIcEOfEzLXQR-2">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -77,10 +89,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qJ1bP34VLIcEOfEzLXQR-18" value="5、重定向到第三方的前端，附带code" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="qJ1bP34VLIcEOfEzLXQR-17" target="qJ1bP34VLIcEOfEzLXQR-2">
-          <mxGeometry x="NaN" y="140" width="80" relative="1" as="geometry">
+          <mxGeometry x="NaN" y="135" width="80" relative="1" as="geometry">
             <mxPoint x="564" y="390" as="sourcePoint" />
             <mxPoint x="424" y="390" as="targetPoint" />
-            <mxPoint x="131" y="-50" as="offset" />
+            <mxPoint x="131" y="-35" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qJ1bP34VLIcEOfEzLXQR-19" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="qJ1bP34VLIcEOfEzLXQR-17">
@@ -90,7 +102,72 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qJ1bP34VLIcEOfEzLXQR-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="245" y="390" width="10" height="80" as="geometry" />
+          <mxGeometry x="245" y="390" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qJ1bP34VLIcEOfEzLXQR-21" value="授权码code" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="256" y="440" as="sourcePoint" />
+            <mxPoint x="412" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qJ1bP34VLIcEOfEzLXQR-23" value="6、携带授权码&lt;br&gt;获取access_token" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="420" y="470" as="sourcePoint" />
+            <mxPoint x="570" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qJ1bP34VLIcEOfEzLXQR-24" value="7、生成access_token" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="490" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="610" y="520" />
+            </Array>
+            <mxPoint x="585" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qJ1bP34VLIcEOfEzLXQR-25" value="返回access_token" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="565" y="538" as="sourcePoint" />
+            <mxPoint x="418" y="538" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qJ1bP34VLIcEOfEzLXQR-27" value="8、携带access_token访问受保护资源" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="qJ1bP34VLIcEOfEzLXQR-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="420" y="578" as="sourcePoint" />
+            <mxPoint x="570" y="578" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qJ1bP34VLIcEOfEzLXQR-28" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="735" y="610" as="sourcePoint" />
+            <mxPoint x="420" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qJ1bP34VLIcEOfEzLXQR-29" value="9、返回资源数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qJ1bP34VLIcEOfEzLXQR-28">
+          <mxGeometry x="0.4963" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qJ1bP34VLIcEOfEzLXQR-30" value="页面渲染" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="635" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="450" y="665" />
+            </Array>
+            <mxPoint x="425" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qJ1bP34VLIcEOfEzLXQR-32" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="409" y="686" as="sourcePoint" />
+            <mxPoint x="255" y="686" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qJ1bP34VLIcEOfEzLXQR-33" value="继续使用" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="95" y="720" as="sourcePoint" />
+            <mxPoint x="240" y="720" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
