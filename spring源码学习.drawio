@@ -554,13 +554,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CQ0IhWzbu38-11ecrSiU-17" value="refreshBeanFactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2631" y="7396" width="150" height="40" as="geometry" />
+          <mxGeometry x="-2631" y="7400" width="150" height="45" as="geometry" />
         </mxCell>
         <mxCell id="CQ0IhWzbu38-11ecrSiU-21" value="getBeanFactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2631" y="7715" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CQ0IhWzbu38-11ecrSiU-23" value="告诉子类刷新内部的Bean工厂" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFC897;" vertex="1" parent="1">
-          <mxGeometry x="-2641.5" y="7356" width="171" height="30" as="geometry" />
+          <mxGeometry x="-2641.5" y="7368" width="171" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CQ0IhWzbu38-11ecrSiU-24" value="destroyBeans" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2400" y="7240" width="160" height="40" as="geometry" />
@@ -569,7 +569,7 @@
           <mxGeometry x="-2400" y="7316" width="160" height="44" as="geometry" />
         </mxCell>
         <mxCell id="CQ0IhWzbu38-11ecrSiU-26" value="createBeanFactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2400" y="7396" width="160" height="44" as="geometry" />
+          <mxGeometry x="-2400" y="7403" width="160" height="44" as="geometry" />
         </mxCell>
         <mxCell id="CQ0IhWzbu38-11ecrSiU-27" value="customizeBeanFactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2400" y="7480" width="160" height="40" as="geometry" />
@@ -578,10 +578,22 @@
           <mxGeometry x="-2400" y="7559" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CQ0IhWzbu38-11ecrSiU-34" value="销毁上下文管理的所有的Bean" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFC897;" vertex="1" parent="1">
-          <mxGeometry x="-2400" y="7210" width="171" height="30" as="geometry" />
+          <mxGeometry x="-2405.5" y="7210" width="171" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CQ0IhWzbu38-11ecrSiU-35" value="关闭所有的Bean工厂" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFC897;" vertex="1" parent="1">
           <mxGeometry x="-2400" y="7286" width="171" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ0IhWzbu38-11ecrSiU-36" value="创建Bean工厂，DefaultListableBeanFactory" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFC897;" vertex="1" parent="1">
+          <mxGeometry x="-2400" y="7370" width="171" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ0IhWzbu38-11ecrSiU-37" value="自定义Beab工厂" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFC897;" vertex="1" parent="1">
+          <mxGeometry x="-2400" y="7450" width="171" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ0IhWzbu38-11ecrSiU-38" value="加载Bean的定义" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFC897;" vertex="1" parent="1">
+          <mxGeometry x="-2405.5" y="7529" width="171" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ0IhWzbu38-11ecrSiU-39" value="创建容器对象DefaultListableBeanFactory&lt;br&gt;加载xml配置文件的属性值到当前工厂中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFC897;" vertex="1" parent="1">
+          <mxGeometry x="-2840" y="7485" width="171" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
