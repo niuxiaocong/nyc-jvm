@@ -369,6 +369,36 @@
         <mxCell id="lIMJ_18xe8KyMIT9F4so-125" value="初始化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="534" y="1960" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lIMJ_18xe8KyMIT9F4so-126" target="lIMJ_18xe8KyMIT9F4so-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="lIMJ_18xe8KyMIT9F4so-126" target="lIMJ_18xe8KyMIT9F4so-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-126" value="SpringBean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="2720" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lIMJ_18xe8KyMIT9F4so-127" target="lIMJ_18xe8KyMIT9F4so-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-127" value="普通对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lIMJ_18xe8KyMIT9F4so-128" target="lIMJ_18xe8KyMIT9F4so-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-128" value="容器对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2760" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-129" value="我们自定义的对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-130" value="内置对象Spring需要的对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-135" value="在不同的阶段处理不同的工作，应该怎么做？&lt;br&gt;观察者模式：监听器，监听事件，多播器（广播）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="3440" width="800" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
