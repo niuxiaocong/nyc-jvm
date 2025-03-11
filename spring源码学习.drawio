@@ -128,7 +128,7 @@
           <mxGeometry x="280" y="1320" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="lIMJ_18xe8KyMIT9F4so-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="1880" width="490" height="540" as="geometry" />
+          <mxGeometry x="270" y="1880" width="560" height="540" as="geometry" />
         </mxCell>
         <mxCell id="lIMJ_18xe8KyMIT9F4so-29" value="IOC容器" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="1890" width="60" height="30" as="geometry" />
@@ -223,7 +223,7 @@
           <mxGeometry width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lIMJ_18xe8KyMIT9F4so-59" value="BeanFactory 整个容器的根接口，也是容器的入口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="1790" width="490" height="60" as="geometry" />
+          <mxGeometry x="270" y="1790" width="560" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lIMJ_18xe8KyMIT9F4so-74" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry y="2880" width="560" height="160" as="geometry" />
@@ -359,6 +359,15 @@
         </mxCell>
         <mxCell id="lIMJ_18xe8KyMIT9F4so-121" value="完整对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="2280" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-123" value="Aware接口到底是什么作用？&lt;br&gt;当Spring容器创建的Bean对象正在进行具体操作的时候，如果需要容器的其他对象，此时可以将对象实现Aware接口，来满足当前的需求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="3200" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-124" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="534" y="1960" width="240" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-125" value="初始化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="534" y="1960" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
