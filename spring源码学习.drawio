@@ -169,11 +169,19 @@
         <mxCell id="lIMJ_18xe8KyMIT9F4so-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lIMJ_18xe8KyMIT9F4so-42" target="lIMJ_18xe8KyMIT9F4so-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-110" value="反射" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lIMJ_18xe8KyMIT9F4so-45">
+          <mxGeometry x="0.019" y="-2" relative="1" as="geometry">
+            <mxPoint y="-142" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="lIMJ_18xe8KyMIT9F4so-42" value="BeanDefinition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="295" y="2338" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lIMJ_18xe8KyMIT9F4so-44" target="lIMJ_18xe8KyMIT9F4so-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lIMJ_18xe8KyMIT9F4so-44" value="实例化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="614" y="2338" width="120" height="60" as="geometry" />
+          <mxGeometry x="600" y="1920" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lIMJ_18xe8KyMIT9F4so-58" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry y="2600" width="320" height="250" as="geometry" />
@@ -306,6 +314,51 @@
         </mxCell>
         <mxCell id="lIMJ_18xe8KyMIT9F4so-101" value="创建对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lIMJ_18xe8KyMIT9F4so-104">
           <mxGeometry y="60" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-106" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="334" y="1900" width="40" height="434" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-107" value="BeanFactoryPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1960" width="156" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-108" value="BeanFactoryPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2010" width="156" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-109" value="BeanFactoryPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2060" width="156" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lIMJ_18xe8KyMIT9F4so-111" target="lIMJ_18xe8KyMIT9F4so-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-111" value="填充属性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1980" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lIMJ_18xe8KyMIT9F4so-113" target="lIMJ_18xe8KyMIT9F4so-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-113" value="设置Aware接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2037" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lIMJ_18xe8KyMIT9F4so-115" target="lIMJ_18xe8KyMIT9F4so-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-115" value="BeanPostProcessor.before" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2102" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lIMJ_18xe8KyMIT9F4so-117" target="lIMJ_18xe8KyMIT9F4so-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-117" value="执行init-method" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2160" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lIMJ_18xe8KyMIT9F4so-119" target="lIMJ_18xe8KyMIT9F4so-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-119" value="BeanPostProcessor.after" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2220" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-121" value="完整对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2280" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
