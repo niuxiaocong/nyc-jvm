@@ -749,8 +749,22 @@
         <mxCell id="ZNHZTshLF9gdpJtnR-DC-29" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AbstractApplicationContext() 空参构造&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-1180" y="4030" width="230" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ZNHZTshLF9gdpJtnR-DC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZNHZTshLF9gdpJtnR-DC-30" target="ZNHZTshLF9gdpJtnR-DC-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNHZTshLF9gdpJtnR-DC-36" value="返回&lt;div class=&quot;lake-content&quot;&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;u62a22f50&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;ResourcePatternResolver&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZNHZTshLF9gdpJtnR-DC-35">
+          <mxGeometry x="-0.0654" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZNHZTshLF9gdpJtnR-DC-30" value="getResourcePatternResolver()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1360" y="3880" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNHZTshLF9gdpJtnR-DC-34" value="PathMatchingResourcePatternResolver(this) 构造方法" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1435" y="3760" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNHZTshLF9gdpJtnR-DC-37" value="这个方法就是赋值ResourceLoader" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1550" y="3740" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
