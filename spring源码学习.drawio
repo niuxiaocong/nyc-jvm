@@ -863,6 +863,14 @@
         <mxCell id="1wwaFu8jh0OVvA9_kBbS-7" value="initBeanDefinitionReader方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3923" y="5700.5" width="183" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="1wwaFu8jh0OVvA9_kBbS-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1wwaFu8jh0OVvA9_kBbS-10" target="1wwaFu8jh0OVvA9_kBbS-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1wwaFu8jh0OVvA9_kBbS-26" value="super调用父类" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1wwaFu8jh0OVvA9_kBbS-25">
+          <mxGeometry x="-0.1548" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1wwaFu8jh0OVvA9_kBbS-10" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;XmlBeanDefinitionReader 构造方法&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3923" y="5480" width="205" height="40" as="geometry" />
         </mxCell>
@@ -876,6 +884,9 @@
           <mxGeometry x="-4029.6190476190473" y="5560" as="geometry">
             <mxPoint x="-10" y="162" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1wwaFu8jh0OVvA9_kBbS-24" value="&lt;div style=&quot;text-align: left;&quot;&gt;AbstractBeanDefinitionReader&lt;br&gt;构造方法&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3923" y="5360" width="205" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
