@@ -860,6 +860,9 @@
         <mxCell id="1wwaFu8jh0OVvA9_kBbS-5" value="&lt;span style=&quot;text-align: left;&quot;&gt;以AbstractXmlApplicationContext类为例&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-4533" y="5700.5" width="183" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="1wwaFu8jh0OVvA9_kBbS-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1wwaFu8jh0OVvA9_kBbS-7" target="1wwaFu8jh0OVvA9_kBbS-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1wwaFu8jh0OVvA9_kBbS-7" value="initBeanDefinitionReader方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3923" y="5700.5" width="183" height="40" as="geometry" />
         </mxCell>
@@ -887,6 +890,18 @@
         </mxCell>
         <mxCell id="1wwaFu8jh0OVvA9_kBbS-24" value="&lt;div style=&quot;text-align: left;&quot;&gt;AbstractBeanDefinitionReader&lt;br&gt;构造方法&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3923" y="5360" width="205" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1wwaFu8jh0OVvA9_kBbS-27" value="这个构造方法里面赋值属性registry、resourceLoader、environment&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-4120" y="5365" width="213" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1wwaFu8jh0OVvA9_kBbS-28" value="这个构造方法里面赋值属性registry、resourceLoader、environment&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-3828" y="5680" width="213" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1wwaFu8jh0OVvA9_kBbS-29" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot; face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;setValidating&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3520" y="5700.5" width="183" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1wwaFu8jh0OVvA9_kBbS-31" value="在这个方法里面会是否对xml的格式进行校验" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-3420" y="5680" width="213" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
