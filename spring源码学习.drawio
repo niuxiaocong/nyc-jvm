@@ -940,11 +940,17 @@
         <mxCell id="CAHdkEeAyxAC7gCTd9qW-17" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;loadBeanDefinitions(Resource... resources)&lt;/span&gt;&amp;nbsp;方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3120" y="6880" width="290" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="CAHdkEeAyxAC7gCTd9qW-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CAHdkEeAyxAC7gCTd9qW-19" target="CAHdkEeAyxAC7gCTd9qW-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CAHdkEeAyxAC7gCTd9qW-19" value="loadBeanDefinitions(Resource resource)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2480" y="6880" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CAHdkEeAyxAC7gCTd9qW-21" value="BeanDefinitionReader 顶级接口" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-2580" y="6860" width="210" height="30" as="geometry" />
+        <mxCell id="CAHdkEeAyxAC7gCTd9qW-21" value="BeanDefinitionReader 顶级接口&lt;br&gt;具体实现类有&lt;br&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;p id=&quot;ub2d487aa&quot; class=&quot;ne-p&quot; style=&quot;margin: 0; padding: 0; min-height: 24px&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;XmlBeanDefinitionReader&lt;/span&gt;&lt;/p&gt;&lt;p id=&quot;ub2d487aa&quot; class=&quot;ne-p&quot; style=&quot;margin: 0; padding: 0; min-height: 24px&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PropertiesBeanDefinitionReader&lt;/span&gt;&lt;/p&gt;&lt;p id=&quot;u4fd09116&quot; class=&quot;ne-p&quot; style=&quot;margin: 0; padding: 0; min-height: 24px&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;GroovyBeanDefinitionReader&lt;br&gt;&lt;br&gt;我们看的话需要看&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;XmlBeanDefinitionReader这个类里面的具体实现&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-2690" y="6720" width="380" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="CAHdkEeAyxAC7gCTd9qW-22" value="loadBeanDefinitions(EncodedResource encodedResource)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1924" y="6880" width="364" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
