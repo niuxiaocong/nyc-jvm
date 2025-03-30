@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="第 1 页" id="ItZLIVE4KQE_05swSXDu">
-    <mxGraphModel dx="8651" dy="1208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8052" dy="853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -970,6 +970,9 @@
         <mxCell id="CAHdkEeAyxAC7gCTd9qW-27" value="实际处理从xml文件中加载Bean的定义" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-1390" y="6850" width="210" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="CAHdkEeAyxAC7gCTd9qW-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CAHdkEeAyxAC7gCTd9qW-28" target="CAHdkEeAyxAC7gCTd9qW-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CAHdkEeAyxAC7gCTd9qW-28" value="doLoadDocument" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-827" y="6520" width="280" height="40" as="geometry" />
         </mxCell>
@@ -981,6 +984,53 @@
         </mxCell>
         <mxCell id="CAHdkEeAyxAC7gCTd9qW-34" value="&lt;br&gt;简单点说就是把document里面定义好的bean注册到spring容器中&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-920" y="7210" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CAHdkEeAyxAC7gCTd9qW-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CAHdkEeAyxAC7gCTd9qW-35" target="CAHdkEeAyxAC7gCTd9qW-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAHdkEeAyxAC7gCTd9qW-40" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap-mode: wrap; background-color: rgb(251, 251, 251);&quot;&gt;DocumentLoader对象&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAHdkEeAyxAC7gCTd9qW-39">
+          <mxGeometry x="-0.0969" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CAHdkEeAyxAC7gCTd9qW-35" value="&lt;div&gt;this.documentLoader.loadDocument(inputSource, getEntityResolver(), this.errorHandler,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; getValidationModeForResource(resource), isNamespaceAware());&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="6520" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CAHdkEeAyxAC7gCTd9qW-37" value="使用配置的 DocumentLoader 实际加载指定的文档； DocumentLoader&amp;nbsp;对象" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="6480" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CAHdkEeAyxAC7gCTd9qW-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CAHdkEeAyxAC7gCTd9qW-38" target="CAHdkEeAyxAC7gCTd9qW-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAHdkEeAyxAC7gCTd9qW-47" value="创建文档工厂" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAHdkEeAyxAC7gCTd9qW-43">
+          <mxGeometry x="0.5171" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CAHdkEeAyxAC7gCTd9qW-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CAHdkEeAyxAC7gCTd9qW-38" target="CAHdkEeAyxAC7gCTd9qW-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAHdkEeAyxAC7gCTd9qW-48" value="返回具体的Document" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAHdkEeAyxAC7gCTd9qW-44">
+          <mxGeometry x="0.5988" relative="1" as="geometry">
+            <mxPoint x="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CAHdkEeAyxAC7gCTd9qW-38" value="&lt;div&gt;this.documentLoader.loadDocument(inputSource, getEntityResolver(), this.errorHandler,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; getValidationModeForResource(resource), isNamespaceAware());&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="6520" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CAHdkEeAyxAC7gCTd9qW-41" value="createDocumentBuilderFactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="6400" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CAHdkEeAyxAC7gCTd9qW-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CAHdkEeAyxAC7gCTd9qW-42" target="CAHdkEeAyxAC7gCTd9qW-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAHdkEeAyxAC7gCTd9qW-50" value="从xml解析出来的document对象作为 registerBeanDefinitions的入参" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAHdkEeAyxAC7gCTd9qW-49">
+          <mxGeometry x="0.0538" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CAHdkEeAyxAC7gCTd9qW-42" value="createDocumentBuilder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="6670" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
