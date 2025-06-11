@@ -363,7 +363,7 @@
         <mxCell id="lIMJ_18xe8KyMIT9F4so-121" value="完整对象" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="2280" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lIMJ_18xe8KyMIT9F4so-123" value="Aware接口到底是什么作用？&lt;br&gt;当Spring容器创建的Bean对象正在进行具体操作的时候，如果需要容器的其他对象，此时可以将对象实现Aware接口，来满足当前的需求" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="lIMJ_18xe8KyMIT9F4so-123" value="Aware接口到底是什么作用？&lt;br&gt;当Spring容器创建的Bean对象正在进行具体操作的时候，如果需要容器的其他对象，此时可以将对象实现Aware接口，来满足当前的需求" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="827" y="3200" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lIMJ_18xe8KyMIT9F4so-124" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
