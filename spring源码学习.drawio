@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.0.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="第 1 页" id="ItZLIVE4KQE_05swSXDu">
-    <mxGraphModel dx="8482" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8043" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -356,6 +356,9 @@
         </mxCell>
         <mxCell id="lIMJ_18xe8KyMIT9F4so-119" value="BeanPostProcessor.after" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="2220" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xZhw5bWas_DsVlnelJY4-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lIMJ_18xe8KyMIT9F4so-121" target="xZhw5bWas_DsVlnelJY4-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lIMJ_18xe8KyMIT9F4so-121" value="完整对象" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="2280" width="150" height="30" as="geometry" />
@@ -1068,6 +1071,9 @@
         </mxCell>
         <mxCell id="CAHdkEeAyxAC7gCTd9qW-60" value="&lt;div&gt;这个方法负责从文档的根目录开始解析&lt;br&gt;在这个方法里面提供了两种解析方式一种是默认的解析方式由parseDefaultElement方法实现，另外一种是自定义的解析方式由parseCustomElement方法实现&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-660" y="7540" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xZhw5bWas_DsVlnelJY4-1" value="context.getBean()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2353" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
