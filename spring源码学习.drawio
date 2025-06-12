@@ -621,10 +621,10 @@
           <mxGeometry x="-5595" y="5685" width="171" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CQ0IhWzbu38-11ecrSiU-40" value="prepareBeanFactory" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-5586" y="7350" width="150" height="40" as="geometry" />
+          <mxGeometry x="-5595.5" y="7270" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CQ0IhWzbu38-11ecrSiU-41" value="准备Bean工厂在以后的上下文中使用" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFC897;" parent="1" vertex="1">
-          <mxGeometry x="-5586" y="7280" width="171" height="90" as="geometry" />
+          <mxGeometry x="-5595.5" y="7200" width="171" height="90" as="geometry" />
         </mxCell>
         <mxCell id="CQ0IhWzbu38-11ecrSiU-42" value="postProcessBeanFactory" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-5595" y="7720" width="150" height="40" as="geometry" />
