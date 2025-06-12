@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="第 1 页" id="ItZLIVE4KQE_05swSXDu">
-    <mxGraphModel dx="9042" dy="1460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8349" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1074,6 +1074,15 @@
         </mxCell>
         <mxCell id="xZhw5bWas_DsVlnelJY4-1" value="context.getBean()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="2353" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1dHLZ4pF2H5_hQ-UKaoi-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1dHLZ4pF2H5_hQ-UKaoi-1" target="1dHLZ4pF2H5_hQ-UKaoi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1dHLZ4pF2H5_hQ-UKaoi-1" value="扩展点：如何扩展实现自定义的属性编辑器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6400" y="2360" width="249" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1dHLZ4pF2H5_hQ-UKaoi-4" value="1、自定义一个实现了PropertyEditorSupport接口的编辑器&lt;br&gt;2、让Spring能够识别到此编辑器，自定义实现一个属性编辑器的注册器，实现了PropertyEditorRegistara接口&lt;br&gt;3、让spring能够识别到对应的注册器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6071" y="2340" width="249" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
