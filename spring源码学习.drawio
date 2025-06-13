@@ -1075,14 +1075,23 @@
         <mxCell id="xZhw5bWas_DsVlnelJY4-1" value="context.getBean()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="2353" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1dHLZ4pF2H5_hQ-UKaoi-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1dHLZ4pF2H5_hQ-UKaoi-1" target="1dHLZ4pF2H5_hQ-UKaoi-4">
+        <mxCell id="1dHLZ4pF2H5_hQ-UKaoi-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1dHLZ4pF2H5_hQ-UKaoi-1" target="1dHLZ4pF2H5_hQ-UKaoi-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1dHLZ4pF2H5_hQ-UKaoi-1" value="扩展点：如何扩展实现自定义的属性编辑器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1dHLZ4pF2H5_hQ-UKaoi-1" value="扩展点：如何扩展实现自定义的属性编辑器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-6400" y="2360" width="249" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1dHLZ4pF2H5_hQ-UKaoi-4" value="1、自定义一个实现了PropertyEditorSupport接口的编辑器&lt;br&gt;2、让Spring能够识别到此编辑器，自定义实现一个属性编辑器的注册器，实现了PropertyEditorRegistara接口&lt;br&gt;3、让spring能够识别到对应的注册器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1dHLZ4pF2H5_hQ-UKaoi-4" value="1、自定义一个实现了PropertyEditorSupport接口的编辑器&lt;br&gt;2、让Spring能够识别到此编辑器，自定义实现一个属性编辑器的注册器，实现了PropertyEditorRegistara接口&lt;br&gt;3、让spring能够识别到对应的注册器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-6071" y="2340" width="249" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="68izL8Sn6ebSoISCwU3M-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="68izL8Sn6ebSoISCwU3M-1" target="68izL8Sn6ebSoISCwU3M-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68izL8Sn6ebSoISCwU3M-1" value="扩展点：自定义一个Aware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6400" y="2600" width="249" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="68izL8Sn6ebSoISCwU3M-2" value="1、定义一个MyAwareProcessor再此方法中postProcessBeforeInitialization，可以设置其他的属性值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6071" y="2600" width="249" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
