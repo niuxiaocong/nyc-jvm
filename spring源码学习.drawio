@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.5">
   <diagram name="第 1 页" id="ItZLIVE4KQE_05swSXDu">
     <mxGraphModel dx="8349" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1084,14 +1084,75 @@
         <mxCell id="1dHLZ4pF2H5_hQ-UKaoi-4" value="1、自定义一个实现了PropertyEditorSupport接口的编辑器&lt;br&gt;2、让Spring能够识别到此编辑器，自定义实现一个属性编辑器的注册器，实现了PropertyEditorRegistara接口&lt;br&gt;3、让spring能够识别到对应的注册器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-6071" y="2340" width="249" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="68izL8Sn6ebSoISCwU3M-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="68izL8Sn6ebSoISCwU3M-1" target="68izL8Sn6ebSoISCwU3M-2">
+        <mxCell id="68izL8Sn6ebSoISCwU3M-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="68izL8Sn6ebSoISCwU3M-1" target="68izL8Sn6ebSoISCwU3M-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="68izL8Sn6ebSoISCwU3M-1" value="扩展点：自定义一个Aware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="68izL8Sn6ebSoISCwU3M-1" value="扩展点：自定义一个Aware" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-6400" y="2600" width="249" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="68izL8Sn6ebSoISCwU3M-2" value="1、定义一个MyAwareProcessor再此方法中postProcessBeforeInitialization，可以设置其他的属性值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="68izL8Sn6ebSoISCwU3M-2" value="1、定义一个MyAwareProcessor再此方法中postProcessBeforeInitialization，可以设置其他的属性值" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-6071" y="2600" width="249" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6N-gyyR19phKZ7z7wAfa-1" target="6N-gyyR19phKZ7z7wAfa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-5" value="子集" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6N-gyyR19phKZ7z7wAfa-4">
+          <mxGeometry x="-0.2911" y="2" relative="1" as="geometry">
+            <mxPoint x="33" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-1" value="&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.0667px;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;invokeBeanFactoryPostProcessors 执行流程&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2480" y="160" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-3" value="BFPP" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1840" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6N-gyyR19phKZ7z7wAfa-6" target="6N-gyyR19phKZ7z7wAfa-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-6" value="&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;外部集合&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2440" y="440" width="121" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6N-gyyR19phKZ7z7wAfa-7" target="6N-gyyR19phKZ7z7wAfa-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-7" value="&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;子集&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2434.5" y="600" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-9" value="&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;父集&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2434.5" y="760" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6N-gyyR19phKZ7z7wAfa-11" target="6N-gyyR19phKZ7z7wAfa-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-14" value="子集" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6N-gyyR19phKZ7z7wAfa-13">
+          <mxGeometry x="-0.1179" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-11" value="&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;BeanDefinitionRegistryPostProcessor&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2480" y="320" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-12" value="&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;BeanFactoryPostProcessor&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2000" y="320" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6N-gyyR19phKZ7z7wAfa-16" target="6N-gyyR19phKZ7z7wAfa-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-16" value="&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;Priority&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1924" y="440" width="164" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6N-gyyR19phKZ7z7wAfa-18" target="6N-gyyR19phKZ7z7wAfa-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-18" value="&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;Ordered&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1897" y="600" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-19" value="&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;没有实现任何排序接口的对象&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1897" y="760" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6N-gyyR19phKZ7z7wAfa-20" value="&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;整个Spring运行期间可以有多个BFPP，那么按照什么顺序执行呢？&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-2250" y="560" width="270" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
