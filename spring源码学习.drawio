@@ -1160,6 +1160,9 @@
         <mxCell id="sN0bD_ddzaOb3At35q11-2" value="&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;postProcessBeanFactory()&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1960" y="920" width="260" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="sN0bD_ddzaOb3At35q11-3" value="如果一个类实现了BeanDefinitionRegistryPostProcessor，那么他的postProcessBeanFactory()，方法可以跟其他的BeanFactoryPostProcessor一起执行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-2480" y="1000" width="820" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
