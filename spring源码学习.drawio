@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.5">
   <diagram name="第 1 页" id="ItZLIVE4KQE_05swSXDu">
-    <mxGraphModel dx="8132" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8821" dy="1327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -621,10 +621,10 @@
           <mxGeometry x="-5595" y="5685" width="171" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CQ0IhWzbu38-11ecrSiU-40" value="prepareBeanFactory" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-5595.5" y="7270" width="150" height="40" as="geometry" />
+          <mxGeometry x="-5595" y="7310" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CQ0IhWzbu38-11ecrSiU-41" value="准备Bean工厂在以后的上下文中使用" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFC897;" parent="1" vertex="1">
-          <mxGeometry x="-5595.5" y="7200" width="171" height="90" as="geometry" />
+          <mxGeometry x="-5595" y="7240" width="171" height="90" as="geometry" />
         </mxCell>
         <mxCell id="CQ0IhWzbu38-11ecrSiU-42" value="postProcessBeanFactory" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-5595" y="7720" width="150" height="40" as="geometry" />
@@ -706,7 +706,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-6120" y="4767" />
-              <mxPoint x="-5670" y="4767" />
+              <mxPoint x="-5660" y="4767" />
+              <mxPoint x="-5660" y="7956" />
             </Array>
             <mxPoint x="-5860" y="4767" as="targetPoint" />
           </mxGeometry>
@@ -1154,13 +1155,13 @@
         <mxCell id="6N-gyyR19phKZ7z7wAfa-20" value="&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;整个Spring运行期间可以有多个BFPP，那么按照什么顺序执行呢？&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-2250" y="560" width="270" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sN0bD_ddzaOb3At35q11-1" value="&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;postProcessBeanDefinitionRegistry()&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sN0bD_ddzaOb3At35q11-1" value="&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;postProcessBeanDefinitionRegistry()&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2481" y="920" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sN0bD_ddzaOb3At35q11-2" value="&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;postProcessBeanFactory()&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sN0bD_ddzaOb3At35q11-2" value="&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;postProcessBeanFactory()&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1960" y="920" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sN0bD_ddzaOb3At35q11-3" value="如果一个类实现了BeanDefinitionRegistryPostProcessor，那么他的postProcessBeanFactory()，方法可以跟其他的BeanFactoryPostProcessor一起执行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="sN0bD_ddzaOb3At35q11-3" value="如果一个类实现了BeanDefinitionRegistryPostProcessor，那么他的postProcessBeanFactory()，方法可以跟其他的BeanFactoryPostProcessor一起执行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-2480" y="1000" width="820" height="40" as="geometry" />
         </mxCell>
       </root>
