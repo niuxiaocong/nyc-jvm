@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram name="第 1 页" id="eMFeoTP_9UUyZn8uqYhF">
-    <mxGraphModel dx="3778" dy="1576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2893" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,7 +44,7 @@
           <mxGeometry x="637" y="790" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Daa2gUxjf4LC8xl4a2z6-19" value="run(args)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="637" y="1520" width="190" height="40" as="geometry" />
+          <mxGeometry x="637" y="1620" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Daa2gUxjf4LC8xl4a2z6-22" value="WebApplicationType.deduceFromClasspath();&lt;br&gt;记录当前项目的类型" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=left;" parent="1" vertex="1">
           <mxGeometry x="1000" y="440" width="400" height="40" as="geometry" />
