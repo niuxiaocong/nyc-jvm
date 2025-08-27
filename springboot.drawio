@@ -52,6 +52,9 @@
         <mxCell id="Daa2gUxjf4LC8xl4a2z6-22" value="WebApplicationType.deduceFromClasspath();&lt;br&gt;记录当前项目的类型" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=left;" vertex="1" parent="1">
           <mxGeometry x="1000" y="440" width="400" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Daa2gUxjf4LC8xl4a2z6-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Daa2gUxjf4LC8xl4a2z6-25" target="Daa2gUxjf4LC8xl4a2z6-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Daa2gUxjf4LC8xl4a2z6-25" value="从 META-INF/spring.factories 配置文件里，加载所有实现了BootstrapRegistryInitializer 接口的类，返回这些类的实例&lt;br&gt;getBootstrapRegistryInitializersFromSpringFactories()" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=left;" vertex="1" parent="1">
           <mxGeometry x="1000" y="600" width="400" height="60" as="geometry" />
         </mxCell>
@@ -60,6 +63,9 @@
         </mxCell>
         <mxCell id="Daa2gUxjf4LC8xl4a2z6-27" value="反推main方法所在的Class对象 并记录在了mainApplicationClass对象中&lt;br&gt;deduceMainApplicationClass();" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=left;" vertex="1" parent="1">
           <mxGeometry x="1000" y="1120" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Daa2gUxjf4LC8xl4a2z6-32" value="getSpringFactoriesInstances(Class&amp;lt;T&amp;gt; type)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="600" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
