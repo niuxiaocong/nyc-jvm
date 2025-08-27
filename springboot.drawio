@@ -58,7 +58,7 @@
         <mxCell id="Daa2gUxjf4LC8xl4a2z6-26" value="&lt;div&gt;&amp;nbsp;加载配置在spring.factories文件中的ApplicationContextInitializer对应的类型并实例化，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;并将加载的数据存储在了 initializers 成员变量中。&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;getSpringFactoriesInstances(ApplicationContextInitializer.class));&lt;/span&gt;&lt;/div&gt;初始化监听器 并将加载的监听器实例对象存储在了listeners成员变量中&lt;br&gt;getSpringFactoriesInstances(ApplicationListener.class));" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=left;" vertex="1" parent="1">
           <mxGeometry x="1000" y="960" width="400" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Daa2gUxjf4LC8xl4a2z6-27" value="deduceMainApplicationClass();" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=left;" vertex="1" parent="1">
+        <mxCell id="Daa2gUxjf4LC8xl4a2z6-27" value="反推main方法所在的Class对象 并记录在了mainApplicationClass对象中&lt;br&gt;deduceMainApplicationClass();" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=left;" vertex="1" parent="1">
           <mxGeometry x="1000" y="1120" width="400" height="40" as="geometry" />
         </mxCell>
       </root>
