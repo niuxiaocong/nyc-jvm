@@ -84,7 +84,10 @@
         <mxCell id="Daa2gUxjf4LC8xl4a2z6-34" value="getSpringFactoriesInstances(Class&amp;lt;T&amp;gt; type, Class&amp;lt;?&amp;gt;[] parameterTypes, Object... args)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=left;" vertex="1" parent="1">
           <mxGeometry x="1841" y="600" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Daa2gUxjf4LC8xl4a2z6-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Daa2gUxjf4LC8xl4a2z6-37" target="Daa2gUxjf4LC8xl4a2z6-42">
+        <mxCell id="Daa2gUxjf4LC8xl4a2z6-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Daa2gUxjf4LC8xl4a2z6-37" target="Daa2gUxjf4LC8xl4a2z6-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Daa2gUxjf4LC8xl4a2z6-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Daa2gUxjf4LC8xl4a2z6-37" target="Daa2gUxjf4LC8xl4a2z6-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Daa2gUxjf4LC8xl4a2z6-37" value="&amp;nbsp;根据指定的接口/抽象类，从META-INF/spring.factories找到他们的实现类名，并返回全路径名称&lt;br&gt;SpringFactoriesLoader.loadFactoryNames(type, classLoader)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=left;" vertex="1" parent="1">
@@ -94,7 +97,10 @@
           <mxGeometry x="2200" y="800" width="440" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Daa2gUxjf4LC8xl4a2z6-42" value="从META-INF/spring.factories加载的具体实现&lt;br&gt;loadFactoryNames(Class&amp;lt;?&amp;gt; factoryType, @Nullable ClassLoader classLoader)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=left;" vertex="1" parent="1">
-          <mxGeometry x="2760" y="400" width="440" height="60" as="geometry" />
+          <mxGeometry x="2760" y="330" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Daa2gUxjf4LC8xl4a2z6-44" value="如果 key 在 Map 中不存在，返回的默认值（空数组）&lt;br&gt;getOrDefault(factoryTypeName, Collections.emptyList());" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2760" y="480" width="440" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
