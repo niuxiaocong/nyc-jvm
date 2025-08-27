@@ -84,7 +84,7 @@
         <mxCell id="Daa2gUxjf4LC8xl4a2z6-34" value="getSpringFactoriesInstances(Class&amp;lt;T&amp;gt; type, Class&amp;lt;?&amp;gt;[] parameterTypes, Object... args)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=left;" vertex="1" parent="1">
           <mxGeometry x="1841" y="600" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Daa2gUxjf4LC8xl4a2z6-37" value="从META-INF/spring.factories&lt;br&gt;SpringFactoriesLoader.loadFactoryNames(type, classLoader)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=left;" vertex="1" parent="1">
+        <mxCell id="Daa2gUxjf4LC8xl4a2z6-37" value="&amp;nbsp;根据指定的接口/抽象类，从META-INF/spring.factories找到他们的实现类名，并返回全路径名称&lt;br&gt;SpringFactoriesLoader.loadFactoryNames(type, classLoader)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=left;" vertex="1" parent="1">
           <mxGeometry x="2200" y="400" width="440" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Daa2gUxjf4LC8xl4a2z6-39" value="接收从 &lt;code data-end=&quot;1658&quot; data-start=&quot;1640&quot;&gt;spring.factories&lt;/code&gt; 读取的类名集合，然后反射加载每个类&lt;br&gt;createSpringFactoriesInstances(type, parameterTypes, classLoader, args, names)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=left;" vertex="1" parent="1">
