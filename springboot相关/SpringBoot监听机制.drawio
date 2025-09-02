@@ -9,20 +9,32 @@
         </mxCell>
         <mxCell id="O35hwrU90b6vnKT5RkCT-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O35hwrU90b6vnKT5RkCT-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="520" as="targetPoint" />
+            <mxPoint x="240" y="278" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O35hwrU90b6vnKT5RkCT-2" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;getRunListeners(args)&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry y="480" width="160" height="80" as="geometry" />
+        <mxCell id="O35hwrU90b6vnKT5RkCT-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O35hwrU90b6vnKT5RkCT-2" target="O35hwrU90b6vnKT5RkCT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O35hwrU90b6vnKT5RkCT-2" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;run(String... args)&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry y="238" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="O35hwrU90b6vnKT5RkCT-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O35hwrU90b6vnKT5RkCT-5" target="O35hwrU90b6vnKT5RkCT-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O35hwrU90b6vnKT5RkCT-5" value="EventPublishingRunListener构造方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="240" y="480" width="200" height="80" as="geometry" />
+          <mxGeometry x="540" y="238" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="O35hwrU90b6vnKT5RkCT-6" value="addApplicationListener(ApplicationListener&amp;lt;?&amp;gt; listener)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="520" y="480" width="280" height="80" as="geometry" />
+          <mxGeometry x="827" y="238" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O35hwrU90b6vnKT5RkCT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O35hwrU90b6vnKT5RkCT-8" target="O35hwrU90b6vnKT5RkCT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O35hwrU90b6vnKT5RkCT-8" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;p style=&quot;margin: 0; padding: 0; min-height: 24px&quot; class=&quot;ne-p&quot; id=&quot;u0cedb32c&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;getRunListeners(args);&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="238" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O35hwrU90b6vnKT5RkCT-10" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;listeners.starting()&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="408" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
