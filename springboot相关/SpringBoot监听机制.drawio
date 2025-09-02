@@ -58,6 +58,39 @@
         <mxCell id="O35hwrU90b6vnKT5RkCT-19" value="&lt;div class=&quot;lake-content&quot;&gt;环境配置前发布事件&lt;br&gt;listeners.environmentPrepared(environment);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="-360" y="540" width="240" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="O35hwrU90b6vnKT5RkCT-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O35hwrU90b6vnKT5RkCT-25" target="O35hwrU90b6vnKT5RkCT-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O35hwrU90b6vnKT5RkCT-25" value="启动阶段&lt;br&gt;starting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="1080" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O35hwrU90b6vnKT5RkCT-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O35hwrU90b6vnKT5RkCT-26" target="O35hwrU90b6vnKT5RkCT-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O35hwrU90b6vnKT5RkCT-26" value="环境准备阶段&lt;br&gt;environmentPrepared" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="1080" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O35hwrU90b6vnKT5RkCT-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O35hwrU90b6vnKT5RkCT-27" target="O35hwrU90b6vnKT5RkCT-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O35hwrU90b6vnKT5RkCT-27" value="容器上下文准备阶段&lt;br&gt;contextPrepared" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="1080" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O35hwrU90b6vnKT5RkCT-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O35hwrU90b6vnKT5RkCT-28" target="O35hwrU90b6vnKT5RkCT-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O35hwrU90b6vnKT5RkCT-28" value="启动完成阶段&lt;br&gt;started" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="1080" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O35hwrU90b6vnKT5RkCT-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O35hwrU90b6vnKT5RkCT-29" target="O35hwrU90b6vnKT5RkCT-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O35hwrU90b6vnKT5RkCT-29" value="启动失败阶段&lt;br&gt;failed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1080" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O35hwrU90b6vnKT5RkCT-30" value="运行阶段&lt;br&gt;running" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="243.5" y="1080" width="156.5" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
