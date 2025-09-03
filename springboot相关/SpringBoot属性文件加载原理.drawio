@@ -1,14 +1,43 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="第 1 页" id="pJoQ1Ndg2AaUiCjgf3xg">
     <mxGraphModel dx="1213" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="j2Kr2M3MJOWy4sunJtri-1" value="springboot属性文件加载原理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="j2Kr2M3MJOWy4sunJtri-1" value="springboot属性文件加载原理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry y="40" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="j2Kr2M3MJOWy4sunJtri-2" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;&amp;nbsp;prepareEnvironment(listeners, applicationArguments)&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry y="520" width="320" height="50" as="geometry" />
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j2Kr2M3MJOWy4sunJtri-2" target="OPcFjBGL-2bX_VGJpKU5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Kr2M3MJOWy4sunJtri-2" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;&amp;nbsp;prepareEnvironment(listeners, applicationArguments)&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry y="480" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-1" target="OPcFjBGL-2bX_VGJpKU5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-1" value="prepareEnvironment(listeners, applicationArguments)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="390" y="475" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-3" target="OPcFjBGL-2bX_VGJpKU5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-3" value="listeners.environmentPrepared(environment);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="475" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-5" target="OPcFjBGL-2bX_VGJpKU5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-9" value="事件触发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OPcFjBGL-2bX_VGJpKU5-8">
+          <mxGeometry x="-0.25" y="-4" relative="1" as="geometry">
+            <mxPoint x="10" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-5" value="EventPublishingRunListener类里面的environmentPrepared方法" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="475" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-7" value="ConfigFileApplicationListener监听器的&lt;br&gt;onApplicationEvent方法" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="475" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
