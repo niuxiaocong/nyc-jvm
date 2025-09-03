@@ -1,29 +1,29 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="第 1 页" id="pJoQ1Ndg2AaUiCjgf3xg">
-    <mxGraphModel dx="3033" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1733" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="j2Kr2M3MJOWy4sunJtri-1" value="springboot属性文件加载原理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry y="40" width="160" height="40" as="geometry" />
+          <mxGeometry width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j2Kr2M3MJOWy4sunJtri-2" target="OPcFjBGL-2bX_VGJpKU5-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j2Kr2M3MJOWy4sunJtri-2" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;&amp;nbsp;prepareEnvironment(listeners, applicationArguments)&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry y="480" width="320" height="50" as="geometry" />
+          <mxGeometry y="708" width="320" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-1" target="OPcFjBGL-2bX_VGJpKU5-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-1" value="prepareEnvironment(listeners, applicationArguments)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="390" y="475" width="250" height="60" as="geometry" />
+          <mxGeometry x="390" y="703" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-3" target="OPcFjBGL-2bX_VGJpKU5-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-3" value="listeners.environmentPrepared(environment);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="720" y="475" width="250" height="60" as="geometry" />
+          <mxGeometry x="720" y="703" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-5" target="OPcFjBGL-2bX_VGJpKU5-7">
           <mxGeometry relative="1" as="geometry" />
@@ -34,7 +34,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-5" value="EventPublishingRunListener类里面的environmentPrepared方法" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="475" width="250" height="60" as="geometry" />
+          <mxGeometry x="1050" y="703" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-7" target="OPcFjBGL-2bX_VGJpKU5-10">
           <mxGeometry relative="1" as="geometry" />
@@ -43,7 +43,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-7" value="ConfigFileApplicationListener监听器的&lt;br&gt;onApplicationEvent方法" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="1390" y="475" width="250" height="60" as="geometry" />
+          <mxGeometry x="1390" y="703" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-10" target="OPcFjBGL-2bX_VGJpKU5-14">
           <mxGeometry relative="1" as="geometry" />
@@ -52,19 +52,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-10" value="这个就是读取配置文件信息的方法&lt;br&gt;onApplicationEnvironmentPreparedEvent方法" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="200" width="250" height="60" as="geometry" />
+          <mxGeometry x="1680" y="428" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-12" value="onApplicationPreparedEvent方法" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="740" width="250" height="60" as="geometry" />
+          <mxGeometry x="1680" y="968" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-14" value="加载系统提供的环境配置的后置处理器&lt;br&gt;loadPostProcessors()" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="2034" y="40" width="326" height="60" as="geometry" />
+          <mxGeometry x="2034" y="268" width="326" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-16" target="OPcFjBGL-2bX_VGJpKU5-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-16" value="重点是ConfigFileApplicationListener类里面的&lt;br&gt;postProcessEnvironment(event.getEnvironment(), event.getSpringApplication())" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="2034" y="351" width="326" height="60" as="geometry" />
+          <mxGeometry x="2034" y="579" width="326" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-18" target="OPcFjBGL-2bX_VGJpKU5-20">
           <mxGeometry relative="1" as="geometry" />
@@ -73,13 +73,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-18" value="属性文件的加载解析在这个方法里面&lt;br&gt;addPropertySources(environment,application.getResourceLoader())" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2481" y="351" width="359" height="60" as="geometry" />
+          <mxGeometry x="2481" y="579" width="359" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OPcFjBGL-2bX_VGJpKU5-20" value="属性文件的加载解析在这个方法里面&lt;br&gt;addPropertySources(environment,application.getResourceLoader())" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2960" y="120" width="359" height="60" as="geometry" />
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-20" target="OPcFjBGL-2bX_VGJpKU5-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OPcFjBGL-2bX_VGJpKU5-22" value="属性文件的加载解析在这个方法里面&lt;br&gt;addPropertySources(environment,application.getResourceLoader())" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2960" y="560" width="359" height="60" as="geometry" />
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-20" target="OPcFjBGL-2bX_VGJpKU5-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-20" value="Loader(environment, resourceLoader)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="280" width="359" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-22" value="Loader(environment, resourceLoader).load()" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="870" width="359" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-24" value="PropertySourcesPlaceholdersResolver(this.environment);" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3430" y="40" width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-26" target="OPcFjBGL-2bX_VGJpKU5-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-26" target="OPcFjBGL-2bX_VGJpKU5-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-26" value="&lt;div&gt;SpringFactoriesLoader.loadFactories(PropertySourceLoader.class,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;getClass().getClassLoader());&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3430" y="519" width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-30" value="这个类负责加载解析properties和xml文件&lt;br&gt;PropertiesPropertySourceLoader" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="4160" y="280" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-32" value="这个类负责加载yml和yaml文件&lt;br&gt;YamlPropertySourceLoader" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="4160" y="763" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
