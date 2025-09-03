@@ -175,13 +175,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-55" value="事件发布&lt;br&gt;ApplicationEnvironmentPreparedEvent" style="whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="850" y="2640" width="230" height="80" as="geometry" />
+          <mxGeometry x="830" y="2640" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-57" target="OPcFjBGL-2bX_VGJpKU5-61">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-57" value="事件触发BootstrapApplicationListener" style="whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="2420" width="230" height="80" as="geometry" />
+          <mxGeometry x="1084" y="2410" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-59" target="OPcFjBGL-2bX_VGJpKU5-63">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-59" value="事件触发ConfigFileApplicationListener" style="whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="2842" width="230" height="80" as="geometry" />
+          <mxGeometry x="1084" y="2833" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-61" value="创建一个新的SpringApplication对象，再次执行run方法，回去加载介绍bootstrap.properties文件" style="whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1394" y="2410" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-63" value="加载解析默认的application.properties、application.yml" style="whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1394" y="2833" width="230" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
