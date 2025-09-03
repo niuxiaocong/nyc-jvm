@@ -84,6 +84,9 @@
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-20" value="Loader(environment, resourceLoader)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=center;" vertex="1" parent="1">
           <mxGeometry x="2960" y="280" width="359" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-22" target="OPcFjBGL-2bX_VGJpKU5-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-22" value="Loader(environment, resourceLoader).load()" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=center;" vertex="1" parent="1">
           <mxGeometry x="2960" y="870" width="359" height="60" as="geometry" />
         </mxCell>
@@ -104,6 +107,24 @@
         </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-32" value="这个类负责加载yml和yaml文件&lt;br&gt;YamlPropertySourceLoader" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=center;" vertex="1" parent="1">
           <mxGeometry x="4160" y="763" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-34" target="OPcFjBGL-2bX_VGJpKU5-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-34" target="OPcFjBGL-2bX_VGJpKU5-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-34" target="OPcFjBGL-2bX_VGJpKU5-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-34" value="解析profile&lt;br&gt;load(null, this::getNegativeProfileFilter, addToLoaded(MutablePropertySources::addFirst, true));" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3400" y="870" width="359" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-36" value="getSearchLocations" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3880" y="870" width="359" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-39" value="获取配置文件名称，默认是application，可以通过spring.config.name指定配置文件名称&lt;br&gt;getSearchNames()" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3400" y="1169" width="359" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
