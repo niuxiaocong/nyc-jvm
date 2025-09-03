@@ -36,8 +36,20 @@
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-5" value="EventPublishingRunListener类里面的environmentPrepared方法" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="1050" y="475" width="250" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-7" target="OPcFjBGL-2bX_VGJpKU5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPcFjBGL-2bX_VGJpKU5-7" target="OPcFjBGL-2bX_VGJpKU5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OPcFjBGL-2bX_VGJpKU5-7" value="ConfigFileApplicationListener监听器的&lt;br&gt;onApplicationEvent方法" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="475" width="250" height="60" as="geometry" />
+          <mxGeometry x="1390" y="475" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-10" value="这个就是读取配置文件信息的方法&lt;br&gt;onApplicationEnvironmentPreparedEvent方法" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="200" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPcFjBGL-2bX_VGJpKU5-12" value="onApplicationPreparedEvent方法" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="740" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
