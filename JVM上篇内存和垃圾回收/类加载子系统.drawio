@@ -217,49 +217,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="120FaNfCN4efDwmngprg-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-274" y="1738" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="120FaNfCN4efDwmngprg-35" value="引导类加载器&lt;br&gt;（BootStrap ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1273" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="120FaNfCN4efDwmngprg-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="120FaNfCN4efDwmngprg-37" target="120FaNfCN4efDwmngprg-35">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="120FaNfCN4efDwmngprg-37" value="扩展类加载器&lt;br&gt;（Extension ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1340" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="120FaNfCN4efDwmngprg-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="120FaNfCN4efDwmngprg-39" target="120FaNfCN4efDwmngprg-37">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="120FaNfCN4efDwmngprg-39" value="系统类加载器&lt;br&gt;（System ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1405" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="120FaNfCN4efDwmngprg-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="120FaNfCN4efDwmngprg-41" target="120FaNfCN4efDwmngprg-39">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="120FaNfCN4efDwmngprg-41" value="自定义类加载器&lt;br&gt;（User Defined ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1488" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="120FaNfCN4efDwmngprg-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="120FaNfCN4efDwmngprg-43" target="120FaNfCN4efDwmngprg-39">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="120FaNfCN4efDwmngprg-43" value="自定义类加载器&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;（User Defined ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="290" y="1488" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="120FaNfCN4efDwmngprg-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="120FaNfCN4efDwmngprg-45" target="120FaNfCN4efDwmngprg-41">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="120FaNfCN4efDwmngprg-45" value="自定义类加载器&lt;br&gt;（User Defined ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1553" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="120FaNfCN4efDwmngprg-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="120FaNfCN4efDwmngprg-47" target="120FaNfCN4efDwmngprg-43">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="120FaNfCN4efDwmngprg-47" value="自定义类加载器&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;（User Defined ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="290" y="1553" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="120FaNfCN4efDwmngprg-49" value="类加载器分类：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1212" width="140" height="30" as="geometry" />
+          <mxGeometry x="-267" y="2446" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="120FaNfCN4efDwmngprg-72" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="50" y="1692" width="465" height="376" as="geometry" />
@@ -322,6 +280,54 @@
         </mxCell>
         <mxCell id="120FaNfCN4efDwmngprg-71" value="父类加载失败则交给子加载器进行处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="120FaNfCN4efDwmngprg-72">
           <mxGeometry x="368" y="116" width="86" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-73" value="运行时数据区：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="50" y="2362" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-74" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="1212" width="470" height="381" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-35" value="引导类加载器&lt;br&gt;（BootStrap ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="120FaNfCN4efDwmngprg-74">
+          <mxGeometry x="110" y="61" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="120FaNfCN4efDwmngprg-74" source="120FaNfCN4efDwmngprg-37" target="120FaNfCN4efDwmngprg-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-37" value="扩展类加载器&lt;br&gt;（Extension ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="120FaNfCN4efDwmngprg-74">
+          <mxGeometry x="110" y="128" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="120FaNfCN4efDwmngprg-74" source="120FaNfCN4efDwmngprg-39" target="120FaNfCN4efDwmngprg-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-39" value="系统类加载器&lt;br&gt;（System ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="120FaNfCN4efDwmngprg-74">
+          <mxGeometry x="110" y="193" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="120FaNfCN4efDwmngprg-74" source="120FaNfCN4efDwmngprg-41" target="120FaNfCN4efDwmngprg-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-41" value="自定义类加载器&lt;br&gt;（User Defined ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="120FaNfCN4efDwmngprg-74">
+          <mxGeometry y="276" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="120FaNfCN4efDwmngprg-74" source="120FaNfCN4efDwmngprg-43" target="120FaNfCN4efDwmngprg-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-43" value="自定义类加载器&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;（User Defined ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="120FaNfCN4efDwmngprg-74">
+          <mxGeometry x="250" y="276" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="120FaNfCN4efDwmngprg-74" source="120FaNfCN4efDwmngprg-45" target="120FaNfCN4efDwmngprg-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-45" value="自定义类加载器&lt;br&gt;（User Defined ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="120FaNfCN4efDwmngprg-74">
+          <mxGeometry y="341" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="120FaNfCN4efDwmngprg-74" source="120FaNfCN4efDwmngprg-47" target="120FaNfCN4efDwmngprg-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-47" value="自定义类加载器&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;（User Defined ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="120FaNfCN4efDwmngprg-74">
+          <mxGeometry x="250" y="341" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-49" value="类加载器分类：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;fontSize=16;" vertex="1" parent="120FaNfCN4efDwmngprg-74">
+          <mxGeometry x="10" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
