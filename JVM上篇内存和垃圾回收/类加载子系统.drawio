@@ -118,7 +118,7 @@
         <mxCell id="120FaNfCN4efDwmngprg-6" value="Class File" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="54" y="636" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="120FaNfCN4efDwmngprg-7" value="类加载子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="120FaNfCN4efDwmngprg-7" value="&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;类加载子系统&lt;br&gt;ClassLoader&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="206" y="686" width="560" height="91" as="geometry" />
         </mxCell>
         <mxCell id="120FaNfCN4efDwmngprg-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
