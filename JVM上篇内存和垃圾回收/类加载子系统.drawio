@@ -329,6 +329,96 @@
         <mxCell id="120FaNfCN4efDwmngprg-49" value="类加载器分类：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;fontSize=16;" vertex="1" parent="120FaNfCN4efDwmngprg-74">
           <mxGeometry x="10" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-75" value="本地方法栈&lt;br&gt;Native Method Stacks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="74" y="2422" width="141" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-76" value="程序计数器&lt;br&gt;Program Counter Register" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="241" y="2422" width="541" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-77" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="74" y="2479" width="707" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-78" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="167" y="2497.5" width="288" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-79" value="虚拟机栈&lt;br&gt;JVM Stacks" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="74" y="2527" width="103" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-81" value="栈帧-1（方法A）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="267" y="2497.5" width="95" height="18.5" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-82" value="局部变量表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="173" y="2528" width="70" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-83" value="操作栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="252" y="2528" width="46" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-84" value="动态链接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="307" y="2528" width="53" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-85" value="方法返回地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368" y="2528" width="76" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-86" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="464" y="2497.5" width="288" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-87" value="栈帧-2（方法B）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="564" y="2497.5" width="95" height="18.5" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-88" value="局部变量表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2528" width="70" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-89" value="操作栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="549" y="2528" width="46" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-90" value="动态链接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="604" y="2528" width="53" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-91" value="方法返回地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="2528" width="76" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-92" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="74" y="2622" width="264" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-93" value="Heap（堆区）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="2622" width="81" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-94" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="81" y="2656" width="167" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-95" value="Old&lt;br&gt;（老年代）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="262" y="2656" width="71" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-97" value="Young（新生代）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="122" y="2711" width="96" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-98" value="Eden" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="87" y="2666" width="78" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-100" value="S0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="174" y="2666" width="29" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-101" value="S1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="214" y="2666" width="29" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-102" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="349.5" y="2622" width="295.5" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-103" value="JIT编译产物&lt;br&gt;CodeCache" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="661" y="2622" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-104" value="Metaspece（元数据区）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="446.5" y="2622" width="130" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-105" value="常量池" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2656" width="120" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-106" value="方法元信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2700" width="120" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="120FaNfCN4efDwmngprg-107" value="类元信息&lt;br&gt;class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="489" y="2656" width="141" height="77" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
